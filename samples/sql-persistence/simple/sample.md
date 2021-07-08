@@ -5,9 +5,16 @@ reviewed: 2020-03-26
 component: SqlPersistence
 related:
  - nservicebus/sagas
+abTestName: docs-ab-framework-test-sample
 ---
 
 This sample shows a client/server scenario.
+
+#variant At the top
+
+This is a variant at the top. It just sometimes shows up.
+
+#end-variant
 
 WARNING: By default all endpoints are started when the solution is run, which means that the sample requires all databases (i.e. SQL Server, MySQL, Oracle, PostreSQL) to be configured to run correctly. In order to run the sample with just one database, disable the relevant endpoints.
 
